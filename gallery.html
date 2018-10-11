@@ -1,52 +1,53 @@
 <html lang="en">
-    <head>
-      <title>Portfolio - Gallery</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <head>
+    <title>Portfolio - Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 
-      <!--font, check google font for more information-->
-      <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    
-      <style>
-        .overlay {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          height: 100%;
-          width: 100%;
-          opacity: 0.7;
-          transition: .5s ease;
-          background-color: white;
-        }
-        
-        .hover:hover .overlay {
-          opacity: 0;
-        }
-        
-        .text {
-          color: black;
-          opacity: 1
-          font-size: 20px;
-          font-family: 'Permanent Marker', cursive;
-          text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          -ms-transform: translate(-50%, -50%);
-        }
-      </style>
+    <!--font, check google font for more information-->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <style>
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.7;
+        transition: .5s ease;
+        background-color: white;
+      }
       
-    </head>
+      .hover:hover .overlay {
+        opacity: 0;
+      }
+      
+      .text {
+        color: black;
+        opacity: 1;
+        font-size: 20px;
+        font-family: 'Permanent Marker', cursive;
+        text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+      .card {
+        box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
     
-    <body class="bg-dark">
+  <body class="bg-dark">
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
       <a class="navbar-brand" href="/index.html">Your Name / Your org name</a>
       <ul class="navbar-nav">
@@ -57,74 +58,21 @@
         <li class="nav-item"><a class="nav-link" href="/contact.html"><i> Contact</i></a></li>
       </ul>
     </nav>
+
       
       
   
     <div class="container">
-        <nav class="navbar navbar-expand-sm bg-secondary navbar-light rounded">
-            <form class="form-inline" action="/">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-            </form>
-        </nav>
-        <br>
-      
-
-        <div class="card-columns">
-          
-            <a href="#" class="hover">
-            <div class="card img-fluid" >
-              <img class="card-img-top" src="https://i.imgur.com/bPBaO2P.jpg" alt="Card image" style="width:100%">
-              <div class="overlay">
-                <h4 class="text">Paris</h4>
-              </div>
-            </div>
-            </a>
-            
-            <a href="#" class="hover">
-            <div class="card img-fluid">
-              <img class="card-img-top" src="https://i.imgur.com/MN9tce8.jpg" alt="Card image" style="width:100%">
-              <div class="overlay">
-                <h4 class="text">Drone</h4>
-              </div>
-            </div>
-            </a>
-            
-            <a href="#" class="hover">
-            <div class="card img-fluid">
-              <img class="card-img-top" src="https://www.w3schools.com/w3css/img_fjords.jpg" alt="Card image" style="width:100%">
-              <div class="overlay">
-                <h4 class="text">LD image</h4>
-              </div>
-            </div>
-            </a> 
-            
-            <a href="#" class="hover">
-            <div class="card img-fluid">
-              <img class="card-img-top" src="https://i.imgur.com/sXG9IHW.jpg" alt="Card image" style="width:100%">
-              <div class="overlay">
-                <h4 class="text">9:16 lion</h4>
-              </div>
-            </div>
-            </a> 
-            
-            <a href="#" class="hover">
-            <div class="card img-fluid">
-              <img class="card-img-top" src="https://www.50-best.com/images/phone_wallpapers_and_backgrounds/train_coming.jpg" alt="Card image" style="width:100%">
-              <div class="overlay">
-                <h4 class="text">9:16 train</h4>
-              </div>
-            </div>
-            </a> 
-            
-        </div>
-  
-  
-  
+      <br>      
+      <div class="card-columns">
+        <div id="album"></div> 
+      </div>  
+    
       <footer class="bg-secondary rounded">
         <p class="text-center text-white">Your Copyright here <i class="fa fa-copyright" aria-hidden="true"></i> 2010-2017</p>
       </footer>
-   </div>
-  
-  </body>
-  </html>
+    </div>
+    <script src="album.js"></script>
+    
+</body>
+</html>

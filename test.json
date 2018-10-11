@@ -1,0 +1,19 @@
+{
+  "id":"5",
+  "name": "drone",
+  "picture3":{
+    "name" : "",
+    "thumbnail" : "hello",
+    "link" : ""
+  },
+  "picture2":{
+    "name" : "",
+    "thumbnail" : "",
+    "link" : ""
+  },
+  "picture1":{
+    "name" : "",
+    "thumbnail" : "",
+    "link" : ""
+  }
+}
