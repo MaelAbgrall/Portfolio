@@ -1,0 +1,9 @@
+{
+    "name":"your name or brand",
+    "start_date": "your start date",
+    "mail":"leave empty to hide",
+    "phone":"leave empty to hide",
+    "welcome_image":"https://link.png",
+    "profile_pic":"https://link.png",
+    "instagram":"instagram link"
+}
