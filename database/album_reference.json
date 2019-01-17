@@ -1,0 +1,26 @@
+{
+    "album2":{
+        "id":"2",
+        "name":"drone",
+        "year":"2016",
+        "month":"",
+        "cover":"54",
+        "tags":["france", "drone"]
+    },
+    "album1":{
+        "id":"1",
+        "name":"vache",
+        "year":"",
+        "month":"",
+        "cover":"",
+        "tags":["france", "drone"]
+    },
+    "album0":{
+        "id":"0",
+        "name":"montagne",
+        "year":"2016",
+        "month":"august",
+        "cover":"",
+        "tags":["france", "drone"]
+    }
+}

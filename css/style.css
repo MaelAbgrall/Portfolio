@@ -1,19 +1,59 @@
-/* navbar */
+/* colors */
+:root {
+  /*--main-bg-color: #56667A;
+  --main-p-color: white;
+  --main-h2-color: #CF5C36;
+  --main-h3-color: #EFC88B;
+  --secondary-color: #32213A;*/
 
-li > a{
-    font-style: italic;
+  /*--dark1: #161111;*/
+  --dark1: #14181D;
+  --dark2: #56667A;
+  /*--light1: #FDF8F5;*/
+  --light1: white;
+  /*--light2: #FFBC61;*/
+  /*--light2: #DCCCA3;*/
+  --light2: #E8DEC4;
+  --hover: #E9806E;
 }
 
+/* navbar */
+  li > a{
+    font-style: italic;
+  }
+
+  .navbar{
+    background-color: var(--light1);
+  }
+
+  .nav-link {
+    color: var(--dark2);
+  }
+
+  .nav-link:hover{
+    color: var(--hover);
+  }
+
+  .nav-link.active {
+    color: var(--dark1);
+  }
+
+  .navbar-brand {
+    color: var(--dark1);
+  }
+  .navbar-brand:hover {
+    color: var(--dark1);
+  }
 
 /* footer */
   .footer{
-    color: white;
+    color: var(--light1);
   }
 
   hr{
     height: 1px;
-    color: white;
-    background-color: white;
+    color: var(--light1);
+    background-color: var(--light1);
     border: none;
   }
 
@@ -31,7 +71,7 @@ li > a{
     width: 100%;
     opacity: 0.7;
     transition: .5s ease;
-    background-color: white;
+    background-color: var(--light1);
   }
   
   .hover:hover .overlay {
@@ -39,11 +79,12 @@ li > a{
   }
   
   .text {
-    color: black;
+    color: var(--dark1);
     opacity: 1;
-    font-size: 20px;
-    font-family: 'Permanent Marker', cursive;
-    text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+    font-size: 2rem;
+    font-family: 'Amatic SC', cursive;
+    font-style: italic;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.3);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,17 +96,27 @@ li > a{
   }
 
 
+/* general */
+  h2 {
+    font-family: 'Amatic SC', cursive;
+    color : var(--light2);
+    font-size: 2.85rem;
+  }
+
+  h3 {
+    font-family: 'Amatic SC', cursive;
+    color : var(--light2);
+    font-style: italic;
+    font-size: 1.5rem;
+  }
+
+  p {
+    color : var(--light1);
+  }
+
 
 
   /* contact */
-  h2 {
-      color : white;
-  }
-
-  p{
-      color : white;
-  }
-
   .logo-btn:link, .logo-btn:visited {
     background-color: white;
     color: black;

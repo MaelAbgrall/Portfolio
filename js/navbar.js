@@ -12,7 +12,7 @@ function writeBar(jsonObject){
 
 
 
-  navstring += '<nav class="navbar navbar-expand-lg py-1 bg-light navbar-light">';
+  navstring += '<nav class="navbar navbar-expand-lg py-1">';
   navstring += '  <a class="navbar-brand" href="/index.html">' + jsonObject.name + '</a>';
   navstring += '  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">';
   navstring += '    <i class="fas fa-bars"></i>';
@@ -63,7 +63,7 @@ function writeBar(jsonObject){
   footString += '  </div>';
   footString += '  <div class="p-2"></div>';
   footString += '  <div class="p-2">';
-  footString += '    This website is an opensource project under MIT licence available';
+  footString += '    This website is an opensource project available';
   footString += '    <a href="https://github.com/MaelAbgrall/frontend-Portfolio" data-toggle="tooltip" title="github">';
   footString += '      here';
   footString += '    </a>';
