@@ -1,76 +1,83 @@
 <html lang="en">
 
 <head>
-  <title>Portfolio - Gallery</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--CDN-->
-  <!--bootstrap-->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-  <!--fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <title>Portfolio - Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CDN-->
+    <!--bootstrap-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
-  <!--Local-->
-  <!--stylesheet-->
-  <link rel="stylesheet" href="/css/style.css">
+    <!--Local-->
+    <!--stylesheet-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/spinner.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
 
-  <!--navbar-->
-  <script defer src='../js/filehandler.js'></script>
-  <script defer src='../js/navbar.js'></script>
+    <!--Scripts-->
+    <script defer src='../js/filehandler.js'></script>
+    <script defer src='../js/navbar.js'></script>
+    <script defer src='../js/pagetitle.js'></script>
+    <script defer src="../js/lightbox.js"></script>
 
-  <!--tab color-->
-  <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#343a40">
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#343a40">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#343a40">
+    <!--tab color-->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#343a40">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#343a40">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#343a40">
 
 
-  <!--page specific-->
-  <script defer src='../js/showAlbum.js'></script>
+    <!--page specific-->
 
 </head>
 
 <body class="bg-dark">
-  <div id='navstring'></div>
+    <div id='navstring'></div>
 
-  <div class="container">
-    <h2 id="title"></h2>
-    <h3 id="date"></h3>
-    <p id="description"></p>
 
-    <div class="card-columns">
-      <div class="card img-fluid" data-toggle="modal" data-target="#myModal">
-        <img class="card-img-top" src="https://i.imgur.com/ma4x7Aw.jpg" alt="Card image" style="width:100%">
-      </div>
+    <div class="container">
 
-      <div class="modal" id="myModal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-
-            <!-- Modal body -->
-            <div class="modal-body">
-              <img class="card-img-top" src="https://i.imgur.com/ma4x7Aw.jpg" alt="Card image" style="width:100%">
+        <div class="center-spinner">
+            <div class="orbit-spinner">
+                <div class="orbit"></div>
+                <div class="orbit"></div>
+                <div class="orbit"></div>
             </div>
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-
-          </div>
         </div>
-      </div>
+        <div class="center-spinner">
+            <h3>Loading images...</h3>
+            <h3 class="load-nb">0/11</h3>
+        </div>
 
 
+
+        <script type="text/javascript">
+            var images = new Array()
+            function preload() {
+                for (i = 0; i < preload.arguments.length; i++) {
+                    images[i] = new Image()
+                    images[i].src = preload.arguments[i]
+                    console.log(typeof (images[i]));
+                    //document.body.appendChild(images[i]);
+                }
+            }
+            preload(
+                "https://i.imgur.com/ma4x7Aw.jpg",
+                "https://i.imgur.com/ma4x7Aw.jpg",
+                "https://i.imgur.com/ma4x7Aw.jpg"
+            )
+        </script>
+
+        <div id="footer"></div>
     </div>
-
-    <div id="footer"></div>
-  </div>
 
 </body>
 

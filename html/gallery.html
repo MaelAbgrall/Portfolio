@@ -1,52 +1,56 @@
 <html lang="en">
 
 <head>
-  <title>Portfolio - Gallery</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--CDN-->
-  <!--bootstrap-->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-  <!--fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <title>Portfolio - Gallery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--CDN-->
+    <!--bootstrap-->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 
-  <!--Local-->
-  <!--stylesheet-->
-  <link rel="stylesheet" href="/css/style.css">
+    <!--Local-->
+    <!--stylesheet-->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/spinner.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
 
-  <!--navbar-->
-  <script defer src='../js/filehandler.js'></script>
-  <script defer src='../js/navbar.js'></script>
+    <!--Scripts-->
+    <script defer src='../js/filehandler.js'></script>
+    <script defer src='../js/navbar.js'></script>
+    <script defer src='../js/pagetitle.js'></script>
+    <script defer src="../js/lightbox.js"></script>
 
-  <!--tab color-->
-  <!-- Chrome, Firefox OS and Opera -->
-  <meta name="theme-color" content="#343a40">
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#343a40">
-  <!-- iOS Safari -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="#343a40">
+    <!--tab color-->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#343a40">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#343a40">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#343a40">
 
 
-  <!--page specific-->
-  <script defer src='../js/showGallery.js'></script>
+    <!--page specific-->
+    <script defer src='../js/showGallery.js'></script>
 
 </head>
 
 <body class="bg-dark">
-  <div id='navstring'></div>
+    <div id='navstring'></div>
 
-  <div class="container">
+    <div class="container">
 
-    <div class="card-columns">
-      <div id="gallery"></div>
+        <div class="card-columns">
+            <div id="gallery"></div>
+        </div>
+
+        <div id="footer"></div>
     </div>
-
-    <div id="footer"></div>
-  </div>
 
 </body>
 

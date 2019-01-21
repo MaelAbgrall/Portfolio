@@ -93,6 +93,12 @@
   }
   .card {
     box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    border: 0px
+  }
+
+  /* this is to hide pictures until they are loaded */
+  .card-columns{
+    /*display: none;*/
   }
 
 
