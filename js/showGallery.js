@@ -35,7 +35,7 @@ function writeCards(jsonObject) {
 
 
 function init() {
-    var jsonUrl = "/database/album_reference.json"
+    var jsonUrl = "../database/album_reference.json"
 
     //from https://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-get-parameters
     var loadedJSON;

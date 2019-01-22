@@ -40,7 +40,7 @@ function init() {
     }
     albumid = params.id;
 
-    var jsonUrl = "/database/albums/" + albumid + ".json"
+    var jsonUrl = "../database/albums/" + albumid + ".json"
 
     //from https://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-get-parameters
     var loadedJSON;
