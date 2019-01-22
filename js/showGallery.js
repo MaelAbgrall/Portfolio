@@ -2,7 +2,7 @@ function writeCards(jsonObject) {
     var cardString = "";
 
     for (item in jsonObject) {        
-        cardString += '<a href="/html/album.html?id=' + jsonObject[item].id + '" class="hover">';
+        cardString += '<a href="../html/album.html?id=' + jsonObject[item].id + '" class="hover">';
         cardString += '    <div class="card img-fluid">';
         cardString += '        <img class="card-img-top" src="' + jsonObject[item].cover + '" alt="Card image" style="width:100%">';
         cardString += '        <div class="overlay">';

@@ -30,7 +30,7 @@ function changeTitle(jsonObject) {
 
 
 function init() {
-    var jsonUrl = "/database/your_info.json"
+    var jsonUrl = "../database/your_info.json"
 
     //from https://stackoverflow.com/questions/979975/how-to-get-the-value-from-the-get-parameters
     var loadedJSON;
