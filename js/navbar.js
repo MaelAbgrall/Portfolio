@@ -23,9 +23,9 @@ function writeBar(jsonObject){
 
   navstring += '      <li class="nav-item py-0">';
   if (page.indexOf("dex") != -1) {
-    navstring += '      <a class="nav-link active" href="/index.html">';
+    navstring += '      <a class="nav-link active" href="../index.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/index.html">';
+    navstring += '      <a class="nav-link" href="../index.html">';
   }
   navstring += '          Main page</a>';
   navstring += '      </li>';
@@ -33,18 +33,18 @@ function writeBar(jsonObject){
 
   navstring += '      <li class="nav-item py-0">';
   if (page.indexOf("allery") != -1) {
-    navstring += '      <a class="nav-link active" href="/html/gallery.html">';
+    navstring += '      <a class="nav-link active" href="../html/gallery.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/html/gallery.html">';
+    navstring += '      <a class="nav-link" href="../html/gallery.html">';
   }
   navstring += '          Gallery</a>';
   navstring += '      </li>';
 
   navstring += '      <li class="nav-item py-0">';
   if (page.indexOf("tact") != -1) {
-    navstring += '      <a class="nav-link active" href="/html/contact.html">';
+    navstring += '      <a class="nav-link active" href="../html/contact.html">';
   } else {
-    navstring += '      <a class="nav-link" href="/html/contact.html">';
+    navstring += '      <a class="nav-link" href="../html/contact.html">';
   }
   navstring += '          Contact / Social media</a>';
   navstring += '      </li>';
