@@ -1,26 +1,58 @@
 {
-    "album2":{
-        "id":"2",
-        "name":"drone",
-        "year":"2016",
+    "portraits":{
+        "id":"portrait",
+        "name":"Portraits",
+        "year":"",
         "month":"",
-        "cover":"https://imgur.com/bPBaO2P.jpg",
-        "tags":["france", "drone"]
+        "cover":"https://imgur.com/cp2qOKa",
+        "tags":["portrait", ""]
     },
-    "album1":{
-        "id":"1",
-        "name":"vache",
+    "animals":{
+        "id":"animals",
+        "name":"Animals",
+        "year":"",
+        "month":"",
+        "cover":"https://imgur.com/dAg46Gg",
+        "tags":["animals", ""]
+    },
+    "sport":{
+        "id":"sport",
+        "name":"Sports",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/bPBaO2P.jpg",
-        "tags":["france", "drone"]
+        "tags":["Sport", ""]
     },
     "album0":{
         "id":"0",
-        "name":"montagne",
-        "year":"2016",
-        "month":"august",
-        "cover":"https://imgur.com/bPBaO2P.jpg",
-        "tags":["france", "drone"]
+        "name":"Edinburgh",
+        "year":"2018/2019",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS",
+        "tags":["Sport", ""]
+    },
+    "album1":{
+        "id":"1",
+        "name":"Scotland",
+        "year":"2018 / 2019",
+        "month":"Christmas",
+        "cover":"https://imgur.com/juZNLCS",
+        "tags":["Sport", ""]
+    },
+    "album2":{
+        "id":"2",
+        "name":"Isle of Sky",
+        "year":"2018",
+        "month":"November",
+        "cover":"https://imgur.com/juZNLCS",
+        "tags":["Sport", ""]
+    },
+    "album3":{
+        "id":"3",
+        "name":"Edinburgh",
+        "year":"2018/2019",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS",
+        "tags":["Sport", ""]
     }
 }

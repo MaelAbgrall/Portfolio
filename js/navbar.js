@@ -57,17 +57,17 @@ function writeBar(jsonObject){
   document.getElementById("navstring").innerHTML = navstring;
 
   footString += '<hr>';
-  footString += '<div class="footer d-flex justify-content-between mb-3">';
+  footString += '<div class="footer d-flex justify-content-center mb-3">';
   footString += '  <div class="p-2">';
   footString += '    ' + jsonObject.name + ' <i class="far fa-copyright"></i> '+ jsonObject.start_date +'-' + year;
   footString += '  </div>';
-  footString += '  <div class="p-2"></div>';
+  /*footString += '  <div class="p-2"></div>';
   footString += '  <div class="p-2">';
   footString += '    This website is an opensource project available';
   footString += '    <a href="https://github.com/MaelAbgrall/frontend-Portfolio" data-toggle="tooltip" title="github">';
   footString += '      here';
   footString += '    </a>';
-  footString += '  </div>';
+  footString += '  </div>';*/
   footString += '</div>';
 
   document.getElementById("footer").innerHTML = footString;
