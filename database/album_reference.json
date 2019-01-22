@@ -4,7 +4,7 @@
         "name":"Portraits",
         "year":"",
         "month":"",
-        "cover":"https://imgur.com/cp2qOKa",
+        "cover":"https://i.imgur.com/Ozm0biE.jpg",
         "tags":["portrait", ""]
     },
     "animals":{
@@ -12,7 +12,7 @@
         "name":"Animals",
         "year":"",
         "month":"",
-        "cover":"https://imgur.com/dAg46Gg",
+        "cover":"https://imgur.com/dAg46Gg.jpg",
         "tags":["animals", ""]
     },
     "sport":{
@@ -28,7 +28,7 @@
         "name":"Edinburgh",
         "year":"2018/2019",
         "month":"",
-        "cover":"https://imgur.com/juZNLCS",
+        "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
     },
     "album1":{
@@ -36,7 +36,7 @@
         "name":"Scotland",
         "year":"2018 / 2019",
         "month":"Christmas",
-        "cover":"https://imgur.com/juZNLCS",
+        "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
     },
     "album2":{
@@ -44,7 +44,7 @@
         "name":"Isle of Sky",
         "year":"2018",
         "month":"November",
-        "cover":"https://imgur.com/juZNLCS",
+        "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
     },
     "album3":{
@@ -52,7 +52,7 @@
         "name":"Edinburgh",
         "year":"2018/2019",
         "month":"",
-        "cover":"https://imgur.com/juZNLCS",
+        "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
     }
 }
