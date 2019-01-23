@@ -1,0 +1,162 @@
+body {
+  background-image: url(https://imgur.com/oKk5p37.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+ html, body, .container {
+  height: 100%;
+}
+
+/* Reset */
+html, body, h1, p, a, div, section {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  color: #777;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  line-height: 1.8;
+}
+
+
+h1 {
+  color: #efecec;
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-top: 20px;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.container {
+  display: table;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/* Special */
+.sub-title {
+  margin: 50px auto;
+  color: white;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+
+  text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.3);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  
+  .container {
+    position: relative;
+    float: left;
+    vertical-align: baseline;
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    line-height: 23px;
+  } 
+  
+
+  .sub-title {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+  }
+
+  p {
+    max-width: 150px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  html, body, .container {
+    height: 100%;
+  }
+
+  .hvr-outline-out{
+    font-size: 14px;
+  }
+}
+
+
+/* button */ 
+.hvr-outline-out {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+}
+
+.hvr-outline-out:before {
+  content: '';
+  position: absolute;
+  border: white solid 4px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+
+.hvr-outline-out:hover:before,
+.hvr-outline-out:focus:before,
+.hvr-outline-out:active:before {
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+}
+
+p,
+[class^="hvr-"] {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+[class^="hvr-"] {
+  margin: .4em;
+  padding: 1em;
+  cursor: pointer;
+  background: white;
+  text-decoration: none;
+  color: #666;
+  /* Prevent highlight colour when element is tapped */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  /* Smooth fonts */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+      color: black;
+      text-decoration: none;
+    }

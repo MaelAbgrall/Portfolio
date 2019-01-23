@@ -8,7 +8,7 @@ function writeAlbum(jsonObject) {
         //only keep objects (aka pictures and their name)
         if(typeof(jsonObject[item]) != "string"){
             albumString += '<div class="card img-fluid"><a href="'+ jsonObject[item][1] +'" data-lightbox="album">';
-            albumString += '    <img class="card-img-top" src="' + jsonObject[item][1] + '" alt="Card image" style="width:100%">';
+            albumString += '    <img class="card-img-top" src="' + jsonObject[item][1] + '" alt="Card image">';
             albumString += '</a></div>';
         }
     }

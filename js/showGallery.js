@@ -4,7 +4,7 @@ function writeCards(jsonObject) {
     for (item in jsonObject) {        
         cardString += '<a href="../html/album.html?id=' + jsonObject[item].id + '" class="hover">';
         cardString += '    <div class="card img-fluid">';
-        cardString += '        <img class="card-img-top" src="' + jsonObject[item].cover + '" alt="Card image" style="width:100%">';
+        cardString += '        <img class="card-img-top" src="' + jsonObject[item].cover + '" alt="Card image">';
         cardString += '        <div class="overlay">';
 
         //check if the year and the month are specified, if not, the overlay won't print empty informations

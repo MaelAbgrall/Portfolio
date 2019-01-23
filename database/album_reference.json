@@ -4,7 +4,7 @@
         "name":"Portraits",
         "year":"",
         "month":"",
-        "cover":"https://i.imgur.com/Ozm0biE.jpg",
+        "cover":"https://imgur.com/K7DpCUe.jpg",
         "tags":["portrait", ""]
     },
     "animals":{
@@ -29,7 +29,7 @@
         "year":"2018/2019",
         "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["Sport", ""]
+        "tags":["", ""]
     },
     "album1":{
         "id":"1",
@@ -37,7 +37,7 @@
         "year":"2018 / 2019",
         "month":"Christmas",
         "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["Sport", ""]
+        "tags":["", ""]
     },
     "album2":{
         "id":"2",
@@ -49,10 +49,106 @@
     },
     "album3":{
         "id":"3",
-        "name":"Edinburgh",
-        "year":"2018/2019",
+        "name":"Champagne - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album4":{
+        "id":"4",
+        "name":"Fontainebleau - France",
+        "year":"2018",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album5":{
+        "id":"5",
+        "name":"Pas-de-Calais - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album6":{
+        "id":"6",
+        "name":"Bretagne - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album7":{
+        "id":"7",
+        "name":"Germany",
+        "year":"2018",
+        "month":"July",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album8":{
+        "id":"8",
+        "name":"Nord - France",
+        "year":"2018",
+        "month":"April",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album9":{
+        "id":"9",
+        "name":"Valberg - France",
+        "year":"2018",
+        "month":"February",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album10":{
+        "id":"10",
+        "name":"Paris",
+        "year":"2017 / 2018",
         "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
+    },
+    "album11":{
+        "id":"11",
+        "name":"Netherlands",
+        "year":"2017",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album12":{
+        "id":"12",
+        "name":"Pas-de-Calais - France",
+        "year":"2017",
+        "month":"July",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album13":{
+        "id":"13",
+        "name":"Parc du Vexin - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album14":{
+        "id":"14",
+        "name":"Lab14 - Paris",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album15":{
+        "id":"15",
+        "name":"Giant's glacier",
+        "year":"2016",
+        "month":"October",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
     }
 }
