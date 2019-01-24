@@ -49,16 +49,16 @@
     },
     "album3":{
         "id":"3",
-        "name":"Champagne - France",
-        "year":"2018",
-        "month":"August",
-        "cover":"https://imgur.com/juZNLCS.jpg",
+        "name":"Ile de France",
+        "year":"2016 - 2018",
+        "month":"",
+        "cover":"https://imgur.com/BG7lyWR.jpg",
         "tags":["", ""]
     },
     "album4":{
         "id":"4",
-        "name":"Fontainebleau - France",
-        "year":"2018",
+        "name":"",
+        "year":"",
         "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
@@ -84,7 +84,7 @@
         "name":"Germany",
         "year":"2018",
         "month":"July",
-        "cover":"https://imgur.com/juZNLCS.jpg",
+        "cover":"https://imgur.com/Bj649J1.jpg",
         "tags":["", ""]
     },
     "album8":{
@@ -105,8 +105,8 @@
     },
     "album10":{
         "id":"10",
-        "name":"Paris",
-        "year":"2017 / 2018",
+        "name":"",
+        "year":"",
         "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
@@ -129,17 +129,17 @@
     },
     "album13":{
         "id":"13",
-        "name":"Parc du Vexin - France",
-        "year":"2018",
-        "month":"August",
+        "name":"",
+        "year":"",
+        "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     },
     "album14":{
         "id":"14",
-        "name":"Lab14 - Paris",
-        "year":"2018",
-        "month":"August",
+        "name":"",
+        "year":"",
+        "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     },
