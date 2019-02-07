@@ -47,3 +47,12 @@
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["Sport", ""]
     },
+
+    "album8":{
+        "id":"8",
+        "name":"Nord - France",
+        "year":"2018",
+        "month":"April",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
