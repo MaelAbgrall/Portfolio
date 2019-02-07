@@ -1,0 +1,49 @@
+"album2":{
+    "id":"2",
+    "name":"Isle of Sky",
+    "year":"2018",
+    "month":"November",
+    "cover":"https://imgur.com/juZNLCS.jpg",
+    "tags":["Sport", ""]
+},
+"album4":{
+    "id":"4",
+    "name":"",
+    "year":"",
+    "month":"",
+    "cover":"https://imgur.com/juZNLCS.jpg",
+    "tags":["", ""]
+},
+,
+    "album5":{
+        "id":"5",
+        "name":"Pas-de-Calais - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album6":{
+        "id":"6",
+        "name":"Bretagne - France",
+        "year":"2018",
+        "month":"August",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album9":{
+        "id":"9",
+        "name":"Valberg - France",
+        "year":"2018",
+        "month":"February",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album10":{
+        "id":"10",
+        "name":"",
+        "year":"",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["Sport", ""]
+    },

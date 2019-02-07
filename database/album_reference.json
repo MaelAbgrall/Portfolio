@@ -39,44 +39,12 @@
         "cover":"https://imgur.com/LjUTfgp.jpg",
         "tags":["", ""]
     },
-    "album2":{
-        "id":"2",
-        "name":"Isle of Sky",
-        "year":"2018",
-        "month":"November",
-        "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["Sport", ""]
-    },
     "album3":{
         "id":"3",
         "name":"Ile de France",
         "year":"2016 - 2018",
         "month":"",
         "cover":"https://imgur.com/BG7lyWR.jpg",
-        "tags":["", ""]
-    },
-    "album4":{
-        "id":"4",
-        "name":"",
-        "year":"",
-        "month":"",
-        "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["", ""]
-    },
-    "album5":{
-        "id":"5",
-        "name":"Pas-de-Calais - France",
-        "year":"2018",
-        "month":"August",
-        "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["", ""]
-    },
-    "album6":{
-        "id":"6",
-        "name":"Bretagne - France",
-        "year":"2018",
-        "month":"August",
-        "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     },
     "album7":{
@@ -94,22 +62,6 @@
         "month":"April",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
-    },
-    "album9":{
-        "id":"9",
-        "name":"Valberg - France",
-        "year":"2018",
-        "month":"February",
-        "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["", ""]
-    },
-    "album10":{
-        "id":"10",
-        "name":"",
-        "year":"",
-        "month":"",
-        "cover":"https://imgur.com/juZNLCS.jpg",
-        "tags":["Sport", ""]
     },
     "album11":{
         "id":"11",
@@ -129,25 +81,65 @@
     },
     "album13":{
         "id":"13",
-        "name":"",
-        "year":"",
-        "month":"",
+        "name":"Giant's Glacier - Mont Blanc (France)",
+        "year":"2016",
+        "month":"October",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     },
     "album14":{
         "id":"14",
-        "name":"",
-        "year":"",
-        "month":"",
+        "name":"Roadtrip in Europe",
+        "year":"2016",
+        "month":"June",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     },
     "album15":{
         "id":"15",
-        "name":"Giant's glacier",
+        "name":"Latvia",
         "year":"2016",
-        "month":"October",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album16":{
+        "id":"16",
+        "name":"Estonia",
+        "year":"2016",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album17":{
+        "id":"17",
+        "name":"Lyon",
+        "year":"2013 -2016",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album18":{
+        "id":"18",
+        "name":"Switzerland",
+        "year":"2015",
+        "month":"July",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album19":{
+        "id":"19",
+        "name":"Sicily",
+        "year":"2016",
+        "month":"",
+        "cover":"https://imgur.com/juZNLCS.jpg",
+        "tags":["", ""]
+    },
+    "album20":{
+        "id":"20",
+        "name":"Alaska",
+        "year":"2012",
+        "month":"",
         "cover":"https://imgur.com/juZNLCS.jpg",
         "tags":["", ""]
     }
