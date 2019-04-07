@@ -1,9 +1,12 @@
 function writeData(jsonObject) {
-    var baseString = '<div class="d-flex justify-content-center">';
+    //var baseString = '<div class="d-flex justify-content-center">';
+    //var endString = '</div>';
+
+    var baseString = '<div class="text-center">';
     var endString = '</div>';
 
     // image
-    var imageString = '<img src="' + jsonObject.profile_pic + '" class="img-thumbnail">';
+    var imageString = '<img src="' + jsonObject.profile_pic + '" class="img-thumbnail img-responsive">';
     document.getElementById("picture").innerHTML = baseString + imageString + endString;
 
     // name / brand
