@@ -4,7 +4,7 @@
         "name":"Portraits",
         "year":"",
         "month":"",
-        "cover":"https://imgur.com/hdAnR3D.jpg",
+        "cover":"https://imgur.com/Ns18G5F.jpg",
         "tags":["portrait", ""]
     },
     "animals":{
@@ -22,6 +22,14 @@
         "month":"",
         "cover":"https://imgur.com/Dq45YpP.jpg",
         "tags":["Sport", ""]
+    },
+    "album22":{
+        "id":"22",
+        "name":"Beltane fire festival",
+        "year":"2019",
+        "month":"May",
+        "cover":"https://imgur.com/y3EKBMw.jpg",
+        "tags":["", ""]
     },
     "album21":{
         "id":"21",
