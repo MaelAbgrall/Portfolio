@@ -11,6 +11,7 @@
     "animals":{
         "id":"animals",
         "name":"Animals",
+        "newpic":"2019-06-19",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/dAg46Gg.jpg",
