@@ -7,20 +7,50 @@ function writeCards(jsonObject) {
         cardString += '        <img class="card-img-top" src="' + jsonObject[item].cover + '" alt="Card image">';
         cardString += '        <div class="overlay">';
 
+        // creating the title string
+        var titledateString = '<div class="text">';
+        
+        /*******************************
+         * print the album title and the date if specified
+         *******************************
+        */
         //check if the year and the month are specified, if not, the overlay won't print empty informations
         if(jsonObject[item].year){
             if(jsonObject[item].month){
-                cardString += '<h4 class="text">' + jsonObject[item].name + '<br>(' + jsonObject[item].month + ', ' + jsonObject[item].year + ')</h4>';
+                titledateString +=  jsonObject[item].name + '<br>(' + jsonObject[item].month + ', ' + jsonObject[item].year + ')';
             }
 
             if(jsonObject[item].month === ""){ //if month is empty
-                cardString += '<h4 class="text">' + jsonObject[item].name + '<br>(' + jsonObject[item].year + ')</h4>';
+                titledateString +=  jsonObject[item].name + '<br>(' + jsonObject[item].year + ')';
             }
         }
 
         if(jsonObject[item].year === ""){ //if year is empty
-            cardString += '<h4 class="text">' + jsonObject[item].name + '</h4>';
+            titledateString +=  jsonObject[item].name;
         }
+
+
+        /********************************
+         * print the *update* if an album was updated recently
+         *******************************
+        */
+        // if new images had been added to the album, show "update" for one month
+        if(jsonObject[item].newpic){            
+            //convert string to date source: https://stackoverflow.com/a/22835394/9020761
+            var parts =jsonObject[item].newpic.split('-');
+            var mydate = new Date(parts[0], parts[1] - 1, parts[2]); 
+            mydate.setMonth(mydate.getMonth()+1);
+            // if the album was updated in less than a month ago, print *update*
+            if(mydate > new Date()){
+                titledateString += '<br><p class="updatetext">*update*</p>';
+            }
+        }
+
+        //closing the title div
+        titledateString += '</div>';
+        
+        // put the titleDate in the cardstring
+        cardString = cardString + titledateString;
 
         cardString += '        </div>';
         cardString += '    </div>';

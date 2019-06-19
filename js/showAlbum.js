@@ -10,7 +10,6 @@ function writeAlbum(jsonObject) {
             albumString += '<div class="card img-fluid"><a href="'+ jsonObject[item][1] +'" data-lightbox="album" data-title="' + jsonObject[item][0] + '">';
             albumString += '    <img class="card-img-top" src="' + jsonObject[item][1] + '" alt="Card image">';
             albumString += '</a></div>';
-            console.log(jsonObject[item]);
         }
     }
     document.getElementById("album").innerHTML = albumString;    

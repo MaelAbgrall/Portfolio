@@ -2,6 +2,7 @@
     "portraits":{
         "id":"portrait",
         "name":"Portraits",
+        "newpic":"2019-06-19",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/Ns18G5F.jpg",
@@ -23,6 +24,24 @@
         "cover":"https://imgur.com/Dq45YpP.jpg",
         "tags":["Sport", ""]
     },
+    "album0":{
+        "id":"0",
+        "name":"Edinburgh",
+        "newpic":"2019-06-19",
+        "year":"2018/2019",
+        "month":"",
+        "cover":"https://imgur.com/DRLo7oH.jpg",
+        "tags":["", ""]
+    },
+    "album1":{
+        "id":"1",
+        "name":"Scotland",
+        "newpic":"2019-06-19",
+        "year":"2018 / 2019",
+        "month":"",
+        "cover":"https://imgur.com/LjUTfgp.jpg",
+        "tags":["", ""]
+    },
     "album22":{
         "id":"22",
         "name":"Beltane fire festival",
@@ -37,22 +56,6 @@
         "year":"2018/2019",
         "month":"",
         "cover":"https://imgur.com/yv9XwKT.jpg",
-        "tags":["", ""]
-    },
-    "album0":{
-        "id":"0",
-        "name":"Edinburgh",
-        "year":"2018/2019",
-        "month":"",
-        "cover":"https://imgur.com/DRLo7oH.jpg",
-        "tags":["", ""]
-    },
-    "album1":{
-        "id":"1",
-        "name":"Scotland",
-        "year":"2018 / 2019",
-        "month":"Christmas",
-        "cover":"https://imgur.com/LjUTfgp.jpg",
         "tags":["", ""]
     },
     "album3":{
