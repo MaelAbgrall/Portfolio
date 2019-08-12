@@ -2,16 +2,16 @@
     "portraits":{
         "id":"portrait",
         "name":"Portraits",
-        "newpic":"2019-06-19",
+        "newpic":"2019-08-12",
         "year":"",
         "month":"",
-        "cover":"https://imgur.com/Ns18G5F.jpg",
+        "cover":"https://imgur.com/wy60kCa.jpg",
         "tags":["portrait", ""]
     },
     "animals":{
         "id":"animals",
         "name":"Animals",
-        "newpic":"2019-06-19",
+        "newpic":"2019-08-12",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/dAg46Gg.jpg",
@@ -28,7 +28,7 @@
     "album0":{
         "id":"0",
         "name":"Edinburgh",
-        "newpic":"2019-06-19",
+        "newpic":"2019-08-12",
         "year":"2018/2019",
         "month":"",
         "cover":"https://imgur.com/DRLo7oH.jpg",

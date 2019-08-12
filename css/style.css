@@ -100,10 +100,10 @@
     font-style: italic;
     font-weight: 600;
     
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);*/
   }
 
   .card {
