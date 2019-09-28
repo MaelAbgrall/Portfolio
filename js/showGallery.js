@@ -91,9 +91,11 @@ function writeCards(jsonObject) {
             var dateString = convertDate(mydate);
             mydate.setMonth(mydate.getMonth() + 1);
             // if the album was updated in less than a month ago, print *update*
-            if (mydate > new Date()) {
+            /*if (mydate > new Date()) {
                 titledateString += '<br><p class="updatetext">* updated ' + dateString + ' *</p>';
-            }
+            }*/
+
+            titledateString += '<br><p class="updatetext">* updated ' + dateString + ' *</p>';
         }
 
         //closing the title div
