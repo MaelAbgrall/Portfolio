@@ -25,6 +25,14 @@
         "cover":"https://imgur.com/Dq45YpP.jpg",
         "tags":["Sport", ""]
     },
+    "album23":{
+        "id":"23",
+        "name":"South of France",
+        "year":"Summer 2019",
+        "month":"",
+        "cover":"https://imgur.com/lxe0oEZ.jpg",
+        "tags":["", ""]
+    },
     "album0":{
         "id":"0",
         "name":"Edinburgh",

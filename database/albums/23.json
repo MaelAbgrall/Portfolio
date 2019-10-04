@@ -1,10 +1,17 @@
 {
-    "album_name":"Scotland 2018/2019",
-    "date":"2018 - 2019",
-    "description":"best shots done in Scotland from Sept 2018 to Sept 2019.",
-    "picture8":["Random Loch", "https://imgur.com/K4v0JaW.png"],
-    "picture7":["B&W ducks", "https://imgur.com/IvEBkOA.png"],
-    "picture8":["Reflections and shadows", "https://imgur.com/HHV2cWn.png"],
-    "picture7":["The road to Gualachulain", "https://imgur.com/SV8qwv1.png"],
-    "picture6":["Spring beach", "https://imgur.com/KRjKtKB.png"]
+    "album_name":"South of France",
+    "date":"summer 2019",
+    "description":"Pictures taken during a roadtrip in the south of France, from Nice to Béziers.",
+    "picture0":["CERGA Observatory", "https://imgur.com/1vMdqVR.png"],
+    "picture1":["CERGA Observatory", "https://imgur.com/DIrZos1.png"],
+    "picture2":["CERGA Obersvatory", "https://imgur.com/1l2PY5Z.png"],
+    "picture3":["Sunset near Valensole", "https://imgur.com/XG2fwnX.png"],
+    "picture4":["Lavender at Sault market", "https://imgur.com/dwDb1lH.png"],
+    "picture5":["Colors at Sault market", "https://imgur.com/ENb0e8B.png"],
+    "picture6":["Spices (Sault market)", "https://imgur.com/IQjdmoT.png"],
+    "picture7":["Pepper (Sault market)", "https://imgur.com/3C6GoNm.png"],
+    "picture8":["Vine entrance (Roussillon)", "https://imgur.com/KavGlQi.png"],
+    "picture9":["Hard as stone (Saint-Guilhem-le-Désert)", "https://imgur.com/KZJmCsX.png"],
+    "picture10":["Le port du Poussaï", "https://imgur.com/lxe0oEZ.png"],
+    "picture11":["Sunset on the golden island (pointe du Dramont)", "https://imgur.com/UKXU9i7.png"]    
 }
