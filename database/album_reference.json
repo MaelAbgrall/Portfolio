@@ -2,7 +2,7 @@
     "portraits":{
         "id":"portrait",
         "name":"Portraits",
-        "newpic":"2019-08-27",
+        "newpic":"2019-10-21",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/wy60kCa.jpg",
@@ -11,10 +11,10 @@
     "animals":{
         "id":"animals",
         "name":"Animals",
-        "newpic":"2019-08-14",
+        "newpic":"2019-10-21",
         "year":"",
         "month":"",
-        "cover":"https://imgur.com/dAg46Gg.jpg",
+        "cover":"https://imgur.com/uQvSacj.jpg",
         "tags":["animals", ""]
     },
     "sport":{
@@ -36,7 +36,6 @@
     "album0":{
         "id":"0",
         "name":"Edinburgh",
-        "newpic":"2019-10-20",
         "year":"2018/2019",
         "month":"",
         "cover":"https://imgur.com/DRLo7oH.jpg",
@@ -45,7 +44,7 @@
     "album1":{
         "id":"1",
         "name":"Scotland",
-        "newpic":"2019-06-19",
+        "newpic":"2019-10-20",
         "year":"2018 / 2019",
         "month":"",
         "cover":"https://imgur.com/LjUTfgp.jpg",
