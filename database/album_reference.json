@@ -25,22 +25,22 @@
         "cover":"https://imgur.com/Dq45YpP.jpg",
         "tags":["Sport", ""]
     },
-    "album00":{
-        "id":"2",
-        "name":"Edinburgh",
-        "year":"2019/2020",
-        "newpic":"2020-01-23",
-        "month":"",
-        "cover":"https://imgur.com/uxzo7iK.jpg",
-        "tags":["", ""]
-    },
     "album1":{
         "id":"1",
         "name":"Scotland",
-        "newpic":"2020-01-23",
+        "newpic":"2020-04-01",
         "year":"2018 / 2019",
         "month":"",
         "cover":"https://imgur.com/LjUTfgp.jpg",
+        "tags":["", ""]
+    },
+    "album0":{
+        "id":"0",
+        "name":"Edinburgh",
+        "year":"2018/2020",
+        "newpic":"2020-01-23",
+        "month":"",
+        "cover":"https://imgur.com/uxzo7iK.jpg",
         "tags":["", ""]
     },
     "album23":{
@@ -49,14 +49,6 @@
         "year":"Summer 2019",
         "month":"",
         "cover":"https://imgur.com/lxe0oEZ.jpg",
-        "tags":["", ""]
-    },
-    "album0":{
-        "id":"0",
-        "name":"Edinburgh",
-        "year":"2018/2019",
-        "month":"",
-        "cover":"https://imgur.com/DRLo7oH.jpg",
         "tags":["", ""]
     },
     "album22":{
