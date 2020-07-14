@@ -46,7 +46,7 @@ function writeBar(jsonObject){
   } else {
     navstring += '      <a class="nav-link" href="../html/contact.html">';
   }
-  navstring += '          Contact</a>';
+  navstring += '          Prints / Copyright / Contact</a>';
   navstring += '      </li>';
 
   navstring += '  </div>';
