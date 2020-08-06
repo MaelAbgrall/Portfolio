@@ -2,7 +2,7 @@
     "portraits":{
         "id":"portrait",
         "name":"Portraits",
-        "newpic":"2019-04-26",
+        "newpic":"2020-08-06",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/A2aawNq.jpg",
@@ -11,7 +11,7 @@
     "animals":{
         "id":"animals",
         "name":"Animals",
-        "newpic":"2020-01-23",
+        "newpic":"2020-08-06",
         "year":"",
         "month":"",
         "cover":"https://imgur.com/Zr1ei4a.jpg",
@@ -28,17 +28,17 @@
     "album1":{
         "id":"1",
         "name":"Scotland",
-        "newpic":"2020-04-01",
+        "newpic":"2020-08-06",
         "year":"2018 / 2019",
         "month":"",
-        "cover":"https://imgur.com/LjUTfgp.jpg",
+        "cover":"https://imgur.com/KKtM3dd.jpg",
         "tags":["", ""]
     },
     "album0":{
         "id":"0",
         "name":"Edinburgh",
         "year":"2018/2020",
-        "newpic":"2020-04-26",
+        "newpic":"2020-08-06",
         "month":"",
         "cover":"https://imgur.com/uxzo7iK.jpg",
         "tags":["", ""]
