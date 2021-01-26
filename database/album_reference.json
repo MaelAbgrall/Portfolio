@@ -25,6 +25,15 @@
         "cover":"https://imgur.com/Dq45YpP.jpg",
         "tags":["Sport", ""]
     },
+    "album24":{
+        "id":"24",
+        "name":"Edinburgh",
+        "year":"20/21",
+        "newpic":"2021-01-26",
+        "month":"",
+        "cover":"https://imgur.com/lxe0oEZ.jpg",
+        "tags":["", ""]
+    },
     "album1":{
         "id":"1",
         "name":"Scotland",
